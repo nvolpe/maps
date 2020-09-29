@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage    	= "https://github.com/@react-native-mapbox-gl/maps#readme"
   s.source      	= { :git => "https://github.com/@react-native-mapbox-gl/maps.git" }
   s.license     	= "MIT"
-  s.platform    	= :ios, "8.0"
+  s.platform    	= { :ios => "8.0", :tvos => "11.0" }
 
   s.dependency 'Mapbox-iOS-SDK', '~> 5.7'
   s.dependency 'React'
